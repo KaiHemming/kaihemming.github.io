@@ -1,5 +1,8 @@
 # mywebsite
 
+## Resources
+https://learnvue.co/articles/deploy-vue-to-github-pages
+
 ## Project setup
 ```
 npm install
