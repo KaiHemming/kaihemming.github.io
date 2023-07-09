@@ -1,0 +1,36 @@
+.wrapper {
+    overflow: auto;
+    display:inline-block;
+    position:fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* border-style: dashed;
+    border-color: var(--mid); */
+}
+.information {
+    float:left;
+    border-bottom: dashed var(--mid);
+}
+.options {
+    float:right;
+    padding: 10px;
+    /* border-bottom: dashed var(--mid); */
+}
+.options a {
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--light2);
+}
+.options a:hover {
+    color: var(--lightest);
+}
+.homeButton {
+    text-decoration: none;
+    font-weight:bold;
+    color: var(--light2);
+}
+.homeButton:hover {
+    color: var(--lightest);
+}

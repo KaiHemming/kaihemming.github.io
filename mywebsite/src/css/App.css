@@ -1,0 +1,22 @@
+:root {
+    --lightest:#FDF0C2;
+    --light2:#DAB596;
+    --light3:#B67970;
+    --mid:#934F5D;
+    --dark1:#6F3453;
+    --dark2:#4b1D45;
+    --darkest:#220c28;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: var(--lightest);
+    margin-top: 60px;
+  }
+
+body {
+    background-color: var(--dark1);
+  }
