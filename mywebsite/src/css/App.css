@@ -1,11 +1,7 @@
 :root {
-    --lightest:#FDF0C2;
-    --light2:#DAB596;
-    --light3:#B67970;
-    --mid:#934F5D;
-    --dark1:#6F3453;
-    --dark2:#4b1D45;
-    --darkest:#220c28;
+    --text-colour:rgb(24, 4, 95);
+    --accent-colour:#49b0fa;
+    --background-colour:white;
 }
 
 #app {
@@ -13,10 +9,11 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: var(--lightest);
-    margin-top: 60px;
+    color: var(--text-colour);
+    font-family: 'Courier New', Courier, monospace;
   }
 
 body {
-    background-color: var(--dark1);
+    background-color: var(--background-color);
+    margin:0;
   }

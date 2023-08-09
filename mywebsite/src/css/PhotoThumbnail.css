@@ -1,0 +1,14 @@
+.title {
+    font-weight: bold;
+}
+.container {
+    width:30%;
+    background-color:var(--light3);
+    border-color: var(--darkest);
+    padding-bottom: 5px;
+}
+img {
+    width: 90%;
+    /* width:100%;
+    max-height: fit-content; */
+}

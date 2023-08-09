@@ -1,8 +1,10 @@
 # mywebsite
 
 ## Resources
+```
 https://learnvue.co/articles/deploy-vue-to-github-pages
-git subtree push --prefix dist origin gh-pages
+git subtree push --prefix mywebsite/dist origin gh-pages
+```
 
 ## Project setup
 ```

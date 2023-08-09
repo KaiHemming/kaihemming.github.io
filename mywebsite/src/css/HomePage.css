@@ -1,36 +1,86 @@
-.wrapper {
+/* .wrapper {
     overflow: auto;
     display:inline-block;
     position:fixed;
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
-    /* border-style: dashed;
-    border-color: var(--mid); */
-}
+} */
 .information {
-    float:left;
-    border-bottom: dashed var(--mid);
+    position: fixed;
+    float: left;
+    height:100%;
+    width:45%;
+    background-color: var(--accent-colour);
+    color: var(--background-colour);
+}
+.information-text {
+    position:fixed;
+    width:35%;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%,-50%);
+}
+.button {
+    margin:5px;
+    display:inline-block;
+    width:fit-content;
+    border: solid var(--background-colour);
+    background-color: var(--background-colour);
+    border-radius:10px;
+    color:var(--text-colour);
+    text-decoration:none;
+}
+.button:hover {
+    color: var(--accent-colour);
+}
+.view-cv {
+    position:fixed;
+    text-align:center;
+    top: 50%;
+    left: 45%;
+    height: fit-content;
+    width: fit-content;
+    transform: translate(0,-50%) rotate(-90deg);
+}
+.arrow {
+    border: solid var(--text-colour);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+}
+.arrow:hover {
+    border-color: var(--accent-colour);
+    cursor: pointer;
+}
+.view-cv :hover {
+    color: var(--accent-colour);
+    cursor: pointer;
 }
 .options {
+    overflow:auto;
+    width:39%;
     float:right;
-    padding: 10px;
-    /* border-bottom: dashed var(--mid); */
+    position:fixed;
+    text-align:left;
+    top: 50%;
+    left: 60%;
+    transform: translate(0,-50%);
 }
 .options a {
     line-height: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: var(--light2);
+    color: var(--text-colour);
 }
 .options a:hover {
-    color: var(--lightest);
+    color: var(--accent-colour);
 }
 .homeButton {
     text-decoration: none;
     font-weight:bold;
-    color: var(--light2);
 }
 .homeButton:hover {
-    color: var(--lightest);
+    color: var(--accent-colour);
 }
