@@ -1,11 +1,3 @@
-/* .wrapper {
-    overflow: auto;
-    display:inline-block;
-    position:fixed;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-} */
 .information {
     position: fixed;
     float: left;
@@ -45,9 +37,9 @@
 }
 .arrow {
     border: solid var(--text-colour);
-    border-width: 0 3px 3px 0;
+    border-width: 0 5px 5px 0;
     display: inline-block;
-    padding: 3px;
+    padding: 5px;
     transform: rotate(45deg);
 }
 .arrow:hover {
@@ -83,4 +75,43 @@
 }
 .homeButton:hover {
     color: var(--accent-colour);
+    cursor:pointer;
+}
+.cv {
+    position: fixed;
+    float: left;
+    width:95%;
+    height:100%;
+    background-color: var(--accent-colour);
+    color: var(--background-colour);
+    animation: 1s cvLoad;
+}
+/* .vue-pdf-embed {
+    position:fixed;
+    width:fit-content;
+    height:fit-content;
+} */
+@keyframes cvLoad {
+    0% {
+        width:45%;
+    }
+    100% {
+        width: 95%;
+    }
+}
+.home-slider {
+    float: right;
+    height:100%;
+    transform: translateY(50%);
+}
+.arrow-up {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display:inline-block;
+    padding: 5px;
+    margin: 10px;
+    transform: rotate(135deg);
+}
+.arrow-up:hover {
+    border-color: var(--text-colour);
 }
