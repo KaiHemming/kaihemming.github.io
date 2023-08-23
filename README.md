@@ -4,6 +4,8 @@
 ```
 https://learnvue.co/articles/deploy-vue-to-github-pages
 git subtree push --prefix mywebsite/dist origin gh-pages
+
+https://cloud.google.com/run/docs/quickstarts/deploy-continuously
 ```
 
 ## Project setup
