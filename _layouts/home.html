@@ -1,10 +1,13 @@
 ---
 layout: base
 ---
-<div class="flex justify-center py-8 ">
+<div class="flex justify-center py-2 ">
   <article class="text-center prose prose-p:font-extralight prose-slate dark:prose-invert primary-underline">
     {{ content }}
   </article>
+</div>
+<div class="flex text-center justify-center">
+  {% include social.html %}
 </div>
 
 <div class="md:w-4/5 mx-auto gap-4 md:gap-6 columns-2 md:columns-3 mb-10">

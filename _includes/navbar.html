@@ -7,6 +7,10 @@
   <div class="container mx-auto flex justify-between items-center">
     <h5 class="text-xl md:text-2xl font-semibold"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h5>
     <div class="my-auto hidden md:flex items-center space-x-4">
+      
+      <a class="hover:scale-105 duration-300 page-link {% if my_page.url == current_page_url %}font-bold{% endif %}"
+        href="/">home</a>
+
       {%- if titles_size > 0 -%}
       {%- for path in page_paths -%}
       {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -118,7 +122,7 @@
   const sunIcon = document.getElementById('sun-icon');
   const moonIcon = document.getElementById('moon-icon');
   const html = document.documentElement;
-  let isDarkMode = false;
+  let isDarkMode = true;
 
   // Function to toggle dark/light mode
   function toggleDarkMode() {
