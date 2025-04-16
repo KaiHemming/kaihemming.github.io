@@ -2,7 +2,7 @@
 title: about
 layout: cv
 ---
-**Kai Hemming**<br/>
+## About
 Software Engineer<br/>
 BSc (Hons) 2:1 Computer Science, University of St. Andrews.
 
