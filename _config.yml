@@ -11,7 +11,7 @@ lang: en
 plugins:
   - jekyll-seo-tag
 
-color: "#13ccf9"
+color: "#59806b"
 # disqus:
 #   shortname: example-com
 #
@@ -19,3 +19,6 @@ rrss:
   email: "To:kyhemming@gmail.com"
   instagram: "https://www.instagram.com/kaixhemming/"
   linkedin: "https://www.linkedin.com/in/kai-hemming/"
+  github: "https://github.com/KaiHemming"
+  itch: "https://kaihemming.itch.io/"
+
