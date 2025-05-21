@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Solo Game Jam in 35 hours, Battling Against my Cold'
-image: assets\images\2024-12-16\7kxexC.png
+image: /assets/images/2024-12-16/7kxexC.png
 tags:
   - game-dev
   - game-jam
